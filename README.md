@@ -1,7 +1,7 @@
 # Mechanistic-Tree-Ring
 
-This is a repository for code associated with the paper: "PAPER TITLE HERE"
+This is a repository for code associated with the paper: "Reconstruction of late Holocene climate based on tree growth and mechanistic hierarchical models."
 
 Users must install the two tarball packages myFunctions_1.0.tar.gz and bayesTreeRing_1.0.tar.gz to load the necessary c++ files for code to run.
 
-Note, due to file size restrictions, the .RData files and the R package bayesTreeRing needed to run code are available by email request
+Note, due to file size restrictions, the .RData files and the R package bayesTreeRing needed to run code are available by email request.
