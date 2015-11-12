@@ -16,11 +16,15 @@ R CMD INSTALL bayesTreeRing_1.0.tar.gz
 ```
 To install the needed R packages.
 
-### Climate Data
+###  Data
 Climate data is accessed from the `.RData` file using the command
 ```
 data("hudsonValleyData")
 ```
 
 The temperature data used for the Hudson Valley reconstruction are `Temp.avg.dat` and the Precipitation data are `Precip.dat`.
+
+Site locations are in `location.dat`.
+
+The tree ring width data are in `species.crn`.
 
