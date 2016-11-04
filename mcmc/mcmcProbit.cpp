@@ -494,8 +494,7 @@ List makeMCMC(mat y, mat Temp, mat P, vec species, List params, List process,
     
     // sample s2_gamma_T
     s2_gamma_T = 1.0 / R::rgamma(alpha_s2_gamma_T + 0.5 * num_species, 1.0 / 
-				 (beta_s2_gamma_T + 0.5 * sum(pow(gamma_T - 
-								  mu_gamma_T, 2))));
+				 (beta_s2_gamma_T + 0.5 * sum(pow(gamma_T - mu_gamma_T, 2))));
     
     // sample xi2_T
     vec xi2_T_star(num_species);

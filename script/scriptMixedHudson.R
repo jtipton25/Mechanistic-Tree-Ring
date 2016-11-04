@@ -12,7 +12,8 @@ library(myFunctions)
 ## load the data
 ##
 
-load('~/Mechanistic-Tree-Ring/datafiles/hudsonValleyData.RData')
+data("hudsonValleyData")
+# load('~/Mechanistic-Tree-Ring/datafiles/hudsonValleyData.RData')
 species <- as.integer(as.factor(species.crn[ - 1]))
 num_species <- length(unique(species))
 p <- length(species) 
